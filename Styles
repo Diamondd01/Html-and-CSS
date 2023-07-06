@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    background-color: #3e5c76;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #hat {
+    height: 110px;
+    margin-left: 5px;
+    border-radius: 20%;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0ebd8; /* Change this to your desired background color */
+    height: 600px;
+    color: black;
+  }
+  
+  .recipe-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    max-width:200px;
+    text-align: center;
+  }
+  
+  .recipe-cards img {
+    width: 100%;
+    max-width: 150px; 
+    height: 150px; 
+    border: solid white;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  .recipe-cards h2 {
+    margin-top: 0;
+  }
+  
+  .recipe-cards button {
+    background-color: #009688;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 0.25rem;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cart {
+    background: #3e5c76;
+    color: white;
+  }
+  
+  .sign-up {
+    padding: 0 10px;
+    background-color: #3e5c76;
+    color: white;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .subjects:hover {
+    box-shadow: #3e5c76;
+  }
+  
